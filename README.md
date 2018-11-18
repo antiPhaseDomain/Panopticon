@@ -4,7 +4,7 @@
 
 👀🔍👮
 
-Panopticon allows [Silence](https://github.com/antiPhaseDomain/Silence) projects to support its [feature](https://github.com/antiPhaseDomain/Silence/blob/master/README.md#verified-features) set.
+[Panopticon](https://en.wikipedia.org/wiki/Panopticon) allows [Silence](https://github.com/antiPhaseDomain/Silence) projects to support its [feature](https://github.com/antiPhaseDomain/Silence/blob/master/README.md#verified-features) set.
 
 Saves all compiled files into `{Project Name}/assets/legacy`
 
