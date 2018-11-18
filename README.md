@@ -1,7 +1,10 @@
 # Panopticon
-We're Watching You
 
-Panopticon allows [Silence](https://github.com/antiPhaseDomain/Silence) to support its [feature](https://github.com/antiPhaseDomain/Silence/blob/master/README.md#verified-features) set.
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Panopticon.jpg/500px-Panopticon.jpg)
+
+👀🔍👮
+
+Panopticon allows [Silence](https://github.com/antiPhaseDomain/Silence) projects to support its [feature](https://github.com/antiPhaseDomain/Silence/blob/master/README.md#verified-features) set.
 
 Saves all compiled files into `{Project Name}/assets/legacy`
 
