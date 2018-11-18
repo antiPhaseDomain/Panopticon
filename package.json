@@ -1,5 +1,5 @@
 {
-  "name": "@panopticon/warden",
+  "name": "@apd/panopticon",
   "version": "1.0.0",
   "description": "Control all those pesky little projects.",
   "main": "script.js",
@@ -7,14 +7,9 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "webpack --watch ./{project-name}/assets/scripts",
-    "serve": "http-server ./{project-name} ",
-    "save-html": "node ./warden.js",
+    "build": "webpack --watch ./silence/script.js",
+    "serve": "http-server ./silence ",
     "start": "concurrently \"npm run serve\" \"npm run build\"",
-    "legacy": "npx babel ./{project-name}/assets/scripts --watch --out-dir assets/ie --presets=@babel/preset-env",
-    "publish": "surge",
-    "published:list": "surge list",
-    "destroy": "surge teardown",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
