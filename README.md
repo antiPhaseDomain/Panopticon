@@ -6,7 +6,7 @@
 
 [Panopticon](https://en.wikipedia.org/wiki/Panopticon) allows [Silence](https://github.com/antiPhaseDomain/Silence) projects to support its [feature](https://github.com/antiPhaseDomain/Silence/blob/master/README.md#verified-features) set.
 
-Saves all compiled files into `{Project Name}/assets/legacy`
+Running `npm start` will start a development server and saves all compiled files into `{Project Name}/assets/scripts/legacy/main.js`.
 
 ## Changing Projects 
 
