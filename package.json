@@ -1,13 +1,13 @@
 {
   "name": "@panopticon/warden",
   "version": "1.0.0",
-  "description": "A warden for Panopticon to control those pesky little projects.",
+  "description": "Control all those pesky little projects.",
   "main": "script.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "build": "webpack --watch",
+    "build": "webpack --watch ./{project-name}/assets/scripts",
     "serve": "http-server ./{project-name} ",
     "save-html": "node ./warden.js",
     "start": "concurrently \"npm run serve\" \"npm run build\"",
@@ -19,15 +19,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loraxx753/html-template.git"
+    "url": "git+https://github.com/antiPhaseDomain/Panopticon.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/loraxx753/html-template/issues"
+    "url": "https://github.com/antiPhaseDomain/Panopticon/issues"
   },
-  "homepage": "https://github.com/loraxx753/html-template#readme",
+  "homepage": "https://github.com/antiPhaseDomain/Panopticon#readme",
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.5",
@@ -39,7 +39,6 @@
     "concurrently": "^4.0.1",
     "himalaya": "^1.1.0",
     "http-server": "^0.11.1",
-    "surge": "^0.20.1",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2"
   },
