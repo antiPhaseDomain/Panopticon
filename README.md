@@ -10,4 +10,4 @@ Saves all compiled files into `{Project Name}/assets/legacy`
 
 Edit the [package.json](https://github.com/antiPhaseDomain/Panopticon/blob/master/package.json#L11) file and change both "build" and "serve" script runners to build and serve your project's folder. 
 
-I'm pretty sure you can just add the commands to `npm start`, but I have yet to try it out.
+I'm pretty sure you can just add the filenames to `npm start`, but I have yet to try it out.
