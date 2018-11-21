@@ -1,7 +1,7 @@
 const path = require('path')
 require('@babel/polyfill')
 
-const project = 'indevents';
+const project = 'truffula';
 
 module.exports = () => {
   return {
