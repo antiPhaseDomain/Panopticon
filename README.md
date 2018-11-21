@@ -4,7 +4,7 @@
 
 👀🔍👮
 
-[Panopticon](https://en.wikipedia.org/wiki/Panopticon) allows [Silence](https://github.com/antiPhaseDomain/Silence) projects to support its [feature](https://github.com/antiPhaseDomain/Silence/blob/master/README.md#verified-features) set.
+[Panopticon](https://en.wikipedia.org/wiki/Panopticon) allows a Thneed (a [Truffula](https://github.com/antiPhaseDomain/Silence project) to all browsers.
 
 Running `npm start` will start a development server and saves all compiled files into `{Project Name}/assets/scripts/legacy/main.js`.
 
